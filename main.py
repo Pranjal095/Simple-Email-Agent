@@ -57,7 +57,7 @@ def main():
             prompt = get_multiline_input("\nEnter what you want the email to be about:")
             
             print("\nGenerating email...")
-            subject, content = email_generator.generate_email(prompt, recipient=to_email)
+            subject, content = email_generator.generate_email(prompt)
             
             print("\n" + "="*50)
             print(f"Subject: {subject}")
