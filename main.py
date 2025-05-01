@@ -4,9 +4,6 @@ import argparse
 from email_generator import EmailGenerator
 from email_sender import EmailSender
 
-def clear_screen():
-    os.system('clear')
-
 def print_banner():
     banner = """
     =======================================
