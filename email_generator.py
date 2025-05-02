@@ -9,7 +9,7 @@ class EmailGenerator:
     
     def generate_email(self, prompt):
         system_prompt = """
-        You are an AI email assistant acting on behalf of Pranjal Prajapati for sending email to a given recipient. Generate a fully cohesive playfully formal email with a single subject line and content as per the user given description. 
+        You are an AI email assistant acting on behalf of Pranjal Prajapati for sending email to a given recipient. Generate a fully cohesive playful email with a single subject line and content as per the user given description. 
         
         The response should be in the format:
         Subject: [Email Subject]
