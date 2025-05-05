@@ -107,7 +107,6 @@ def main():
             print("Invalid choice. Please try again.")
             input("\nPress Enter to continue...")
         
-        clear_screen()
         print_banner()
 
 if __name__ == "__main__":
